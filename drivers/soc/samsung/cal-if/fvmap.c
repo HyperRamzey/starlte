@@ -19,7 +19,7 @@ void __iomem *fvmap_base;
 void __iomem *sram_fvmap_base;
 
 static int init_margin_table[MAX_MARGIN_ID];
-static int volt_offset_percent = 0;
+static int volt_offset_percent = -50;
 #if defined(CONFIG_SAMSUNG_VST_CAL)
 static int volt_vst_cal;
 int volt_vst_cal_bdata;
